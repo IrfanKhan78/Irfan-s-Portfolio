@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Irfan's Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/2abae68eda.js" crossorigin="anonymous"></script>
+
+  <!-- CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <section id="header">
+
+    <!-- Navbar -->
+
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" href="#skills">Skills</a>
+              <a class="nav-link" href="#contact-me">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Introduction -->
+
+    <div class="row">
+      <div class="col-lg-6">
+        <img class="profile-image" src="images/profile.png" alt="profile-photo">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="name">Irfan Mahir Khan</h1>
+        <p>Student</p>
+        <p>Pennsylvania State University - University Park</p>
+        <p>Bachelor of Science in Computer Science</p>
+        <p>CGPA: 3.78/4.00</p>
+        <p>Permanent Address: Queens Village, New York</p>
+      </div>
+
+    </div>
+
+
+
+  </section>
+
+  <!-- Skills -->
+
+  <section id="skills">
+
+    <h2 class="section-heading">Skills</h2>
+
+    <div class="row">
+
+        <div class="skill-box col-lg-4">
+          <i class="fa-solid fa-laptop-code skill-image"></i>
+          <h3 class="skill-title">Programming Language</h3>
+          <p>Python, Java, C, C++</p>
+        </div>
+        <div class="skill-box col-lg-4">
+          <i class="fa-brands fa-html5 skill-image"></i>
+          <i class="fa-brands fa-css3-alt skill-image"></i>
+          <h3 class="skill-title">WEB development</h3>
+          <p>HTML, CSS, Javascript, Django</p>
+        </div>
+        <div class="skill-box col-lg-4">
+          <i class="fa-solid fa-desktop skill-image"></i>
+          <h3 class="skill-title">Other</h3>
+          <p>Linux, Windows, MacOS, Microsoft products</p>
+        </div>
+
+      </div>
+
+  </section>
+
+  <!-- Projects -->
+
+  <section id="projects">
+
+    <h2 class="section-heading">Personal Projects</h2>
+
+    <div id="projects-carousel" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item container-fluid">
+          <h2 class="project-text">COVID-19 Global Data Tracker</h2>
+          <img class="project-image" src="images/cov-19.jpeg" alt="covid-image">
+          <p>Simple website to check covid data of a country.</p>
+          <a href="https://github.com/IrfanKhan78/COVID-19-live-data-Django-"><button type="button" name="button" class="btn btn-lg btn-primary github-link">Github Link</button></a>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="project-text">Todo Application</h2>
+          <img class="project-image" src="images/todo.jpeg" alt="lady-profile">
+          <p>Simple todo application website.</p>
+          <a href="https://github.com/IrfanKhan78/Todo-Django-"><button type="button" name="button" class="btn btn-lg btn-primary github-link">Github Link</button></a>
+        </div>
+        <div class="carousel-item active container-fluid">
+          <h2 class="project-text">Light-Sound Memory Game</h2>
+          <img class="project-image" src="images/memory-game.png" alt="lady-profile">
+          <p>A memory game!</p>
+          <a href="https://github.com/IrfanKhan78/Light-and-Sound-Memory-Game"><button type="button" name="button" class="btn btn-lg btn-primary github-link">Github Link</button></a>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#projects-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#projects-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+  </section>
+
+  <section id="contact-me">
+
+    <h3 class="contact-text">I am looking for a summer 2023 internship in software engineering.</h3>
+    <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"><i class="contact-icon fa-brands fa-linkedin"></i></a>
+    <a href="https://github.com/IrfanKhan78?tab=repositories"><i class="contact-icon fa-brands fa-github"></i></a>
+    <a href="mailto:irfankhancpg@gmail.com"><i class="contact-icon fa-solid fa-envelope"></i></a>
+    <a href="tel:9292829860"><i class="contact-icon fa-solid fa-phone"></i></a>
+
+
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+
+</html>

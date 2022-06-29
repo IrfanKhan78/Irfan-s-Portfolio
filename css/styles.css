@@ -1,0 +1,144 @@
+body {
+  font-family: "Montserrat";
+}
+
+p {
+  color: #3A5BA0;
+}
+
+/* Navbar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1F4690;
+}
+
+.nav-link {
+  color: #1F4690;
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  padding: 0 18px;
+}
+
+/* Images */
+
+.profile-image {
+  width: 60%;
+  border-radius: 100%;
+}
+
+/* Section Headings */
+
+#projects .section-heading {
+  color: #1F4690;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+#skills .section-heading {
+  color: #1F4690;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+/* Header Section */
+
+#header {
+  background-color: #8CC0DE;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.name {
+  color: #1F4690;
+  right: 25%;
+}
+
+/* Skills Section */
+
+#skills {
+  text-align: center;
+  padding: 5% 15%;
+}
+
+.skill-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1F4690;
+}
+
+.skill-image {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #143F6B;
+}
+
+.skill-box {
+  padding: 5%;
+}
+
+
+/* Projects Section */
+
+#projects {
+  background-color: #8CC0DE;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.project-image {
+  width: 30%;
+  padding: 1.5rem 0;
+  border-radius: 100%;
+}
+
+.github-link {
+  margin: 3% 0;
+}
+
+.project-text {
+  padding: 3% 0;
+  color: #3A5BA0;
+}
+
+
+/* Contact Section */
+
+#contact-me {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.contact-text {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #1F4690;
+}
+
+.contact-icon {
+  margin: 30px 10px;
+  font-size: 1.5rem;
+  color: #3A5BA0;
+}
+
+.contact-icon:hover {
+  color: black;
+}
+
+@media (max-width: 1028px) {
+  .contact-text {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #1F4690;
+  }
+}
