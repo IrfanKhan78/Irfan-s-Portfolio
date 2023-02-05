@@ -35,6 +35,11 @@ p {
   border-radius: 100%;
 }
 
+.lockheed-image {
+  width: 80%;
+  border-radius: 100%;
+}
+
 /* Section Headings */
 
 #projects .section-heading {
@@ -45,6 +50,20 @@ p {
 }
 
 #skills .section-heading {
+  color: #1F4690;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+#experience .section-heading {
+  color: #1F4690;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+#contact-me .section-heading {
   color: #1F4690;
   font-size: 3.5rem;
   font-weight: bold;
@@ -111,12 +130,20 @@ p {
   color: #3A5BA0;
 }
 
+/* Experience Section */
+
+#experience {
+  text-align: center;
+  padding: 5% 15%;
+}
+
 
 /* Contact Section */
 
 #contact-me {
+  background-color: #8CC0DE;
   text-align: center;
-  padding: 7% 15%;
+  padding: 5% 15%;
 }
 
 .contact-text {
@@ -127,7 +154,7 @@ p {
 
 .contact-icon {
   margin: 30px 10px;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: #3A5BA0;
 }
 
