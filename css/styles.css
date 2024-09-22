@@ -2,16 +2,21 @@ body {
   font-family: "Montserrat";
 }
 
+li, p, h5, h2, h4 {
+  color: #3A5BA0;
+}
+
+h4 {
+  font-weight: bold;
+}
+
 li {
-  color: #3A5BA0;
+  font-weight: 400;
 }
 
-p {
-  color: #3A5BA0;
-}
-
-h5 {
-  color: #3A5BA0;
+.experience h2 {
+  font-size: larger;
+  padding: 4px;
 }
 
 /* Navbar */
@@ -93,6 +98,16 @@ h5 {
 
 /* Skills Section */
 
+.skill {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px #8CC0DE;
+  margin: 20px;
+  width: 45%;
+  text-align: center;
+  padding: 20px;
+}
+
 #skills {
   text-align: center;
   padding: 5% 15%;
@@ -144,9 +159,30 @@ h5 {
 
 /* Experience Section */
 
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.experience {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px #8CC0DE;
+  margin: 20px;
+  width: 45%;
+  text-align: center;
+  padding: 20px;
+}
+
+.experience img {
+  width: 200px;
+  padding: 4px;
+}
+
 #experience {
   text-align: center;
-  padding: 5% 15%;
+  padding: 4%;
 }
 
 
