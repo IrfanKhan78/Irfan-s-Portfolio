@@ -188,10 +188,30 @@ li {
 
 /* Contact Section */
 
+.social {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px #8CC0DE;
+  margin: 20px;
+  width: 25%;
+  text-align: center;
+  padding: 20px;
+}
+
+.contact {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px #8CC0DE;
+  margin: 20px;
+  width: 45%;
+  text-align: center;
+  padding: 20px;
+}
+
 #contact-me {
   background-color: #8CC0DE;
   text-align: center;
-  padding: 5% 15%;
+  padding: 20px;
 }
 
 .contact-text {
@@ -202,12 +222,37 @@ li {
 
 .contact-icon {
   margin: 30px 10px;
-  font-size: 1.7rem;
-  color: #3A5BA0;
+  font-size: 3rem;
 }
 
-.contact-icon:hover {
+.fa-github {
   color: black;
+}
+
+.fa-github:hover {
+  color: grey;
+}
+
+.fa-linkedin {
+  color: #0a66c2;
+}
+
+.fa-linkedin:hover {
+  color: blue;
+}
+
+.fa-envelope {
+  color: #D2042D;
+}
+
+.fa-envelope:hover {
+  color: #F88379;
+}
+
+.email-icon {
+  margin: 27px 10px;
+  width: 55px;
+  height: 55px;
 }
 
 @media (max-width: 1028px) {
