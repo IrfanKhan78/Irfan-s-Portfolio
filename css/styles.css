@@ -41,6 +41,10 @@ li {
   padding: 0 18px;
 }
 
+.nav-link:hover {
+  color: grey;
+}
+
 /* Images */
 
 .profile-image {
@@ -150,11 +154,13 @@ li {
 
 .github-link {
   margin: 3% 0;
+  background-color: #1F4690;
 }
 
 .project-text {
   padding: 3% 0;
   color: #3A5BA0;
+  border-radius: 50px;
 }
 
 /* Experience Section */
@@ -238,15 +244,15 @@ li {
 }
 
 .fa-linkedin:hover {
-  color: blue;
+  color: #1F4690;
 }
 
 .fa-envelope {
-  color: #D2042D;
+  color: #1F4690;
 }
 
 .fa-envelope:hover {
-  color: #F88379;
+  color: #0a66c2;
 }
 
 .email-icon {
