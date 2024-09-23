@@ -1,5 +1,20 @@
+
+
 body {
   font-family: "Montserrat";
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+}
+
+hr {
+  position:relative;
+  top: 20px;
+  border-top: 2px dotted black;
+  height: 1px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
 }
 
 li, p, h5, h2, h4 {
@@ -90,7 +105,7 @@ li {
 /* Header Section */
 
 #header {
-  background-color: #8CC0DE;
+  /* background-color: #8CC0DE; */
   padding: 7% 15%;
   text-align: center;
 }
@@ -105,7 +120,7 @@ li {
 .skill {
   background-color: white;
   border-radius: 10px;
-  box-shadow: 0 4px 8px #8CC0DE;
+  box-shadow: 0 4px 8px black;
   margin: 20px;
   width: 45%;
   text-align: center;
@@ -137,13 +152,17 @@ li {
 /* Projects Section */
 
 #projects {
-  background-color: #8CC0DE;
+  /* background-color: #8CC0DE; */
   text-align: center;
   padding: 4% 7%;
 }
 
-.carousel-control-prev .carousel-control-next {
-  background-color: black;
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
 
 .project-image {
@@ -163,6 +182,16 @@ li {
   border-radius: 50px;
 }
 
+#projects-carousel {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px black;
+  margin: 20px;
+  width: 45%;
+  text-align: center;
+  padding: 20px;
+}
+
 /* Experience Section */
 
 .container {
@@ -174,7 +203,7 @@ li {
 .experience {
   background-color: white;
   border-radius: 10px;
-  box-shadow: 0 4px 8px #8CC0DE;
+  box-shadow: 0 4px 8px black;
   margin: 20px;
   width: 45%;
   text-align: center;
@@ -215,7 +244,7 @@ li {
 }
 
 #contact-me {
-  background-color: #8CC0DE;
+  /* background-color: #8CC0DE; */
   text-align: center;
   padding: 20px;
 }
