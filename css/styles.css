@@ -17,6 +17,15 @@ hr {
   margin-bottom: 50px;
 }
 
+.intro hr {
+  top: 10px;
+  margin-bottom: 20px;
+}
+
+.intro li {
+  list-style-type: square;
+}
+
 li, p, h5, h2, h4 {
   color: #3A5BA0;
 }
