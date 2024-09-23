@@ -83,6 +83,13 @@ li {
 
 /* Section Headings */
 
+#education .section-heading {
+  color: #1F4690;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
 #projects .section-heading {
   color: #1F4690;
   font-size: 3.5rem;
@@ -139,6 +146,14 @@ li {
   font-family: "Merriweather", serif;
   font-weight: bolder;
   font-style: italic;
+}
+
+.info {
+  font-weight: bolder;
+}
+
+span {
+  font-weight: lighter;
 }
 
 /* Skills Section */
@@ -319,7 +334,7 @@ li {
 @media (max-width: 1028px) {
   .contact-text {
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #1F4690;
   }
 }
